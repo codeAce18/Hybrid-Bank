@@ -5,11 +5,12 @@
     box-sizing: border-box;
   }
   
-  body {
+  html ,body {
     font-family: "Noto Serif JP", serif;
     background: #0a0a0a;
     color: white;
     line-height: 1.6;
+    max-width: 100%;
     overflow-x: hidden;
   }
   
@@ -52,6 +53,8 @@
   .header {
     position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     z-index: 1000;
     background: #0a0a0a99;
