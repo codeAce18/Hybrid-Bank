@@ -11,6 +11,9 @@ const observerOptions = {
       }
     })
   }, observerOptions)
+
+
+
   
   // Initialize animations when DOM is loaded
   document.addEventListener("DOMContentLoaded", () => {
@@ -34,7 +37,11 @@ const observerOptions = {
   
       observer.observe(el)
     })
+
   })
+
+
+  
   
   // FAQ Toggle Function
   function toggleFaq(element) {
