@@ -363,6 +363,7 @@
   }
   
   .feature-card3 {
+    position: relative;
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
     border: 0.8px solid #1f2937;
     border-radius: 20px;
@@ -372,6 +373,24 @@
     text-align: start;
     transition: all 0.3s ease;
     backdrop-filter: blur(10px);
+  }
+
+  .number-circle {
+    background-color: #FF2D55;
+    width: 39px;
+    height: 40px;
+    border-radius: 100%;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -15px;
+    left: -15px;
   }
   
   .feature-card2:hover {
@@ -643,6 +662,7 @@
   }
   
   .testimonial-card {
+    position: relative;
     background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;
