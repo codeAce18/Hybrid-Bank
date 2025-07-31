@@ -33,7 +33,7 @@ const observerOptions = {
       }
   
       // Stagger animations
-      el.style.transitionDelay = `${index * 0.1}s`
+      el.style.transitionDelay = `${index * 0}s`
   
       observer.observe(el)
     })

@@ -22,11 +22,10 @@
   
   /* Gradient Text */
   .gradient-text {
-    background: linear-gradient(0deg, #ffffff, #ffffff), linear-gradient(90deg, #ff2d55 0%, #8a2be2 100%);
+    background: linear-gradient(90deg, #ff2d55 0%, #8a2be2 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-blend-mode: overlay;
     font-weight: 900;
   }
   
@@ -49,7 +48,6 @@
     }
   }
   
-  /* Header - Fixed overflow issue */
   .header {
     position: fixed;
     top: 0;
@@ -466,9 +464,33 @@
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 8px 25px rgba(255, 45, 85, 0.4);
+    white-space: nowrap;
+  }
+
+
+  .registration-cta-button {
+    background: #ff2d55;
+    border: none;
+    max-width: 300px;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 35px;
+    color: white;
+    font-family: "Noto Serif JP", serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(255, 45, 85, 0.4);
+    white-space: nowrap;
   }
   
   .pricing-cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(255, 45, 85, 0.5);
+  }
+
+  .registration-cta-button:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 35px rgba(255, 45, 85, 0.5);
   }
